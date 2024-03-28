@@ -1,0 +1,85 @@
+body {
+  font-size: 14px;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#navbar-header {
+  background-color: #3CB371;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+.navbar-brand { /* Barra de Navegação*/
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2.0em;
+  position: relative;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 20px;
+  
+}
+
+.navbar{
+  border-radius: 0px;
+  background-color: #008080;
+  position: relative;
+  min-width: 50px;
+  margin-bottom: 20px;
+
+}
+
+
+#nav-list {
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+border-top:1px solid black;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid ;
+}
+.navbar-header button.navbar-toggle {
+  clear: none;
+  float: right;
+
+}
+
+
+#menu-tile1, #menu-tile2, #menu-tile3 {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color: #00CED1;
+}
+
+
+#menu-tile1 {
+  background-position: center;
+}
+
+#menu-tile2 {
+  background-position: center;
+}
+
+#menu-tile3 {
+  background-position: center;
+}
+
